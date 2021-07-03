@@ -629,6 +629,11 @@ section {
   color: #0f2f57;
 }
 
+@media (max-width: 500px){
+  .section-title p{
+    text-align: center;
+  }
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -930,6 +935,12 @@ section {
   }
   .why-us .accordion-list {
     padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px){
+  .why-us .content h3{
+    text-align: center;
   }
 }
 
@@ -1276,13 +1287,14 @@ section {
 
 .cta .cta-btn {
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
   border-radius: 4px;
   transition: 0.5s;
+  text-transform: uppercase;
   margin-top: 10px;
   border: 2px solid #ed502e;
   color: #fff;
@@ -1633,7 +1645,7 @@ section {
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
-  margin: 0 0 10px 28px;
+  /* margin: 0 0 10px 28px; */
   font-family: 'Poppins', sans-serif;
 }
 
