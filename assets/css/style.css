@@ -1079,6 +1079,8 @@ section {
 
 .services .icon-box-2 h4{
   margin-top: 20px;
+  font-weight: bold;
+  color: #111;
 }
 
 .dep-social {
