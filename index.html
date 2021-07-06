@@ -480,7 +480,7 @@
                 <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
               
                 <div class="img-deputados">
-                  <img class="img-fluid" src="assets/img/deputados/fabio-freitas.jpg" alt="">
+                  <img class="img-fluid" src="assets/img/deputados/adriano-coelho.jpg" alt="">
                 </div>
                 
                 <h4>Fabio Freitas</h4>
@@ -528,7 +528,7 @@
                 <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
               
                 <div class="img-deputados">
-                  <img class="img-fluid" src="assets/img/deputados/fabio-freitas.jpg" alt="">
+                  <img class="img-fluid" src="assets/img/deputados/ana-cunha.jpg" alt="">
                 </div>
                 
                 <h4>Fabio Freitas</h4>
@@ -601,7 +601,7 @@
                   <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
                 
                   <div class="img-deputados">
-                    <img class="img-fluid" src="assets/img/deputados/fabio-freitas.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/deputados/chicao.jpg" alt="">
                   </div>
                   
                   <h4>Fabio Freitas</h4>
@@ -649,7 +649,7 @@
                   <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
                 
                   <div class="img-deputados">
-                    <img class="img-fluid" src="assets/img/deputados/fabio-freitas.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/deputados/marinor-brito.jpg" alt="">
                   </div>
                   
                   <h4>Fabio Freitas</h4>
@@ -697,7 +697,7 @@
                   <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
                 
                   <div class="img-deputados">
-                    <img class="img-fluid" src="assets/img/deputados/fabio-freitas.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/deputados/victor-dias.jpg" alt="">
                   </div>
                   
                   <h4>Fabio Freitas</h4>
@@ -1408,40 +1408,81 @@
             </div>
 
             <!-- FORMULARIO -->
-            <!-- <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
+            <div class="col-lg-6">
+              <form action="enviar.php" method="post" role="form" class="php-email-form" >
+
                 <div class="form-row">
+
                   <div class="col form-group">
-                    <input
+                    <input 
                       type="text"
-                      name="name"
+                      name="nome"
                       class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      data-rule="minlen:4"
-                      data-msg="Please enter at least 4 chars"
+                      id="nome"
+                      placeholder="Seu Nome (Opcional)"
                     />
-                    <div class="validate"></div>
                   </div>
+
                   <div class="col form-group">
                     <input
                       type="email"
                       class="form-control"
                       name="email"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="Seu E-mail"
                       data-rule="email"
-                      data-msg="Please enter a valid email"
+                      data-msg="Insira um email válido"
                     />
                     <div class="validate"></div>
                   </div>
+
+                  <div class="col form-group">
+                    <!-- <input 
+                      type="text"
+                      name="estado"
+                      class="form-control"
+                      id="estado"
+                      placeholder="Seu Estado"
+                      data-msg="Insira o seu Estado"
+                      data-rule="minlen:4"
+                    /> -->
+                    
+                    <select class="form-control" name="estado" id="estado">
+                      <option>Pará</option>
+                      <option>São Paulo</option>
+                      <option></option> <option></option> 
+                      <option>Acre</option>
+                      <option>Alagoas</option>
+                      <option>Amapá</option>
+                      <option>Amazonas</option>
+                      <option>Bahia</option>
+                      <option>Ceara</option>
+                      <option>Distrito Federal</option>
+                      <option>Espírito Santo</option>
+                      <option>Goiás</option>
+                      <option>Maranhão</option>
+                      <option>Mato Grosso</option>
+                      <option>Mato Grosso do Sul</option>
+                      <option>Minas Gerais</option>
+                      <option>Paraíba</option>
+                      <option>Paraná</option>
+                      <option>Pernambuco</option>
+                      <option>Piauí</option>
+                      <option>Rio de Janeiro</option>
+                      <option>Rio Grande do Norte</option>
+                      <option>Rio Grande do Sul</option>
+                      <option>Rondônia</option>
+                      <option>Roraima</option>
+                      <option>Santa Catarina</option>
+                      <option>Sergipe</option>
+                      <option>Tocantins</option>
+                    </select>
+
+                  </div>
+
                 </div>
-                <div class="form-group">
+                
+                <!-- <div class="form-group">
                   <input
                     type="text"
                     class="form-control"
@@ -1463,7 +1504,8 @@
                     placeholder="Message"
                   ></textarea>
                   <div class="validate"></div>
-                </div>
+                </div> -->
+
                 <div class="mb-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
@@ -1472,10 +1514,10 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit">Enviar Abaixo Assinado</button>
                 </div>
               </form>
-            </div> -->
+            </div>
           </div>
         </div>
       </section>
