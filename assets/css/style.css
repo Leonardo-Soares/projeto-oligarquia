@@ -107,7 +107,7 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #header.header-scrolled {
@@ -259,7 +259,7 @@ h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #111;
+  background: #fe0000;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px 9px 25px;
@@ -267,13 +267,13 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #111;
+  border: 2px solid #fe0000;
 
 }
 
 .get-started-btn:hover {
-  background: #fff;
-  color: #111;
+  background: #111;
+  color: #fff;
   border: 2px solid #111;
 }
 
@@ -423,7 +423,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(4, 12, 21, 0.5);
+  /* background-color: rgba(153, 156, 160, 0.5); */
 }
 
 #hero .carousel-container {
@@ -437,7 +437,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color: #111;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -546,6 +546,7 @@ h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   background: #111;
+  border: 2px solid #111;
   margin-top: 15px;
   text-transform: uppercase;
 }
@@ -553,6 +554,7 @@ h6 {
 #hero .btn-get-started:hover {
   background: #fff;
   color: #111;
+  border: 2px solid #111;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -599,7 +601,7 @@ h6 {
 
 @media (max-height: 500px) {
   #hero {
-    height: 140vh;
+    height: 50vh;
   }
 }
 
@@ -1200,7 +1202,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  color: #720a0a;
+  color: #fe0000;
   text-align: center;
 }
 
