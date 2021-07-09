@@ -561,6 +561,10 @@ h6 {
   margin-top: 210px;
 }
 
+.coluna-template .display-4{
+  font-weight: bold;
+}
+
 @media (max-width: 1053px){
   .display-4{
     font-size: 50px;
@@ -2198,3 +2202,12 @@ section {
   background-color: #fff;
   border-radius: .3rem;
 }
+
+.eapps-link title{
+  display: none;
+}
+
+.eapps-link a{
+  display: none;
+}
+
