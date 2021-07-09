@@ -11,7 +11,7 @@ body {
 } */
 
 a:hover {
-  color: #f1775d;
+  color: #111;
   text-decoration: none;
 }
 
@@ -89,14 +89,15 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #ed502e;
+  background: #111;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #f06f54;
-  color: #fff;
+  background: #fff;
+  color: #111;
+  border: 2px solid #111;
 }
 
 /*--------------------------------------------------------------
@@ -255,7 +256,7 @@ h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #ed502e;
+  background: #111;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px 9px 25px;
@@ -266,7 +267,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #ef6445;
+  background: #111;
   color: #fff;
 }
 
@@ -527,7 +528,7 @@ h6 {
 
 #hero .btn-get-started {
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -538,12 +539,16 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #ed502e;
+  background: #111;
   margin-top: 15px;
+  text-transform: uppercase;
 }
 
 #hero .btn-get-started:hover {
-  background: #ef6445;
+  background: #fff;
+  color: #111;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {
@@ -602,7 +607,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #111;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -626,7 +631,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  color: #0f2f57;
+  color: #111;
 }
 
 @media (max-width: 500px){
@@ -661,7 +666,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #ed502e;
+  color: #111;
   line-height: 1;
 }
 
@@ -757,7 +762,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #123a6d;
+  color: #111;
 }
 
 .why-us .content h4 {
@@ -811,7 +816,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #ed502e;
+  color: #111;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -1159,6 +1164,17 @@ section {
   margin: auto;
 }
 
+.dep-contra-title p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: #720a0a;
+  text-align: center;
+}
+
 .dep-title p {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1166,7 +1182,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  color: #0f2f57;
+  color: #111;
   text-align: center;
 }
 
@@ -1185,12 +1201,14 @@ section {
   font-weight: bold;
   transition: 0.3s;
   /* border: 2px solid ; */
-  background: #ed502e;
+  background: #111;
+  border: 2px solid #111;
 }
 
 .btn-todos .btn-todos-button:hover {
-  background: #111;
-  color: #fff;
+  background: #fff;
+  color: #111;
+  border: 2px solid #111;
 }
 
 
@@ -1294,7 +1312,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   padding: 80px 0;
-  background: #0b2341;
+  background: #111;
   margin-top: 50px;
 }
 
@@ -1319,13 +1337,14 @@ section {
   transition: 0.5s;
   text-transform: uppercase;
   margin-top: 10px;
-  border: 2px solid #ed502e;
+  border: 2px solid #fff;
   color: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #ed502e;
-  border: 2px solid #ed502e;
+  background: #fff;
+  border: 2px solid #fff;
+  color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -1680,26 +1699,40 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #0b2341;
+  color: #111;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   background: #fff;
 }
 
+.contact .info-box:hover{
+  transition: 0.3s;
+  background: #111;
+  color: #fff;
+}
+
 .contact .info-box i {
   font-size: 32px;
-  color: #ed502e;
+  color: #111;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #fbdad2;
 }
 
+.contact .info-box:hover i{
+  color: #fff;
+}
+
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: #111;
   font-weight: 700;
   margin: 10px 0;
+}
+
+.contact .info-box:hover h3{
+  color: #fff;
 }
 
 .contact .info-box p {
