@@ -650,20 +650,11 @@ h6 {
   margin-top: 210px;
 }
 
-.coluna-template .display-4{
-  font-weight: bold;
-}
-
 .img-helder{
   margin-top: 15px;
 }
 
 
-@media (max-width: 1053px){
-  .display-4{
-    font-size: 50px;
-  }
-}
 
 @media (min-width: 1024px) {
   #hero .carousel-control-prev,
@@ -2430,3 +2421,35 @@ section {
 .parlamentar-circle .foto span {
 	text-transform: uppercase
 }
+
+/* PAGINA ABAIXO ASSINADO */
+
+.coluna-abaixo{
+  margin-top: 80px;
+}
+
+.display-4{
+  text-align: center; 
+  font-family: 'Poppins'; 
+  font-weight: bold;
+  color: #111;
+}
+
+.jumbotron{
+  background-color: #fff;
+  padding: 0px;
+}
+
+
+@media (max-width: 768px){
+  .display-4{
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 567px){
+  .display-4{
+    font-size: 40px;
+  }
+}
+
