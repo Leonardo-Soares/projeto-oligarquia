@@ -1,0 +1,44 @@
+col-11 col-sm-10 col-lg-6 col-md-9 hero-img aos-init aos-animate
+
+col-1 col-sm-2 col-lg-6 col-md-3 hero-img aos-init aos-animate
+
+
+
+
+
+
+976
+
+col-lg-6
+margin-top: 165px
+
+
+div sem class
+margin-left: 126%;
+
+
+.a (bnts inicio)
+
+
+
+max-width: 147px;
+min-width: 147px;
+
+
+900
+
+div sem class
+margin-left: 77%;
+
+
+822
+div sem class
+margin-left: 50%;
+
+800
+div sem class
+margin-left: -6%;
+
+
+500
+
